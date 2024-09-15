@@ -1,12 +1,23 @@
-= Theme
-:source-highlighter: prettify
+= workshop-asciidoc
+Dmitry Rakovets
+:source-highlighter: rouge
 :sectnums:
 :toc: left
 :toclevels: 2
+:figure-caption!:
 
-:toc!:
+Wiki
 
-Wiki for 'Example'.
+:leveloffset: +1
 
-include::dir-example/page1.adoc[leveloffset=1]
-include::dir-example/page2.adoc[leveloffset=1]
+include::java/jakarta-ee/index.adoc[]
+
+include::java/data-persistence/hibernate/index.adoc[]
+
+refactor:
+
+include::rykovodstvo-po-hibernate-obrabotka-paketov/documation.adoc[]
+
+include::rykovodstvo-po-hibernate-keshirovanie/documenation.adoc[]
+
+:leveloffset: -1
